@@ -1,0 +1,23 @@
+:root{
+  --text-color: #272829;
+  --primary-color: #1E90FF;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.btn{
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+.btn a{
+  color: white;
+}
